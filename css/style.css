@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #1735ba, #5f1782);
+    padding: 0;
+}
+.navbar-brand img{
+    height: 40px;
+    scroll-padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+}
+
+/*--------------banner section-----------*/
+
+#banner{
+    background-image: linear-gradient(to right, #d30f81, #5f1782);
+    color: #fff;
+ 
+
+}
+/*-------service section-----*/
+ #services{
+    background-image: linear-gradient(to right, #7bc93c, #ece90a); 
+ }
+ /*-------------about us secton------------*/
+
+ #about{
+    background-image: linear-gradient(to right, #7446ca, #5f1782);
+
+ }
+ .about-title{
+     margin-top: 8%;
+     font-weight: 600;
+     font-size: 30px;
+ }
+ #about ul li{
+     margin: 10px 0px;
+ }
+ #about ul{
+     margin-left: 15px;
+ }
+ /*-------social media section-------*/
+ #social-media{
+    background: #f8f9fa; 
+    padding: 100px;
+ }
+ #social-media p{
+     font-size: 35px;
+     font-weight: 600;
+     
+ }
+ .social-icon img{
+     width: 60px;
+    padding: 10px;  
+    transition: 0.5s;
+ }
+ .social-icon a:hover img{
+     transform: translatey(-10px);
+ }
+ /*-----footer section-----*/
+ #footer{
+     background-image: linear-gradient(to right, #dbdd48, #5f1782);
+ }
+
+ .icon{
+     font-size: 20px;
+     color: #f8f9fa;
+     padding: 20px;
+ }
+ .icon i{
+    font-size: 20px;
+    color: #f8f9fa;
+    padding: 10px;
+ }
